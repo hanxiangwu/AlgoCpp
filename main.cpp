@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
   int a=10, *p;
-  int &b=a;
-  p=&a;
+  int &b=a; //reference
+  p=&a; //pointer
   string s="c++";
   string *ps=&s;
   cout<<p<<endl;
